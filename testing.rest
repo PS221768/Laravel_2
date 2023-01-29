@@ -1,0 +1,19 @@
+POST http://127.0.0.1:8000/api/exercise HTTP/1.1
+content-type: application/json
+Accept: application/json
+Connection: keep-alive
+Authorization: "Bearer 5|oqm612bkneGil4oiigdsNuP2iNAo2m8kP3bms6BD"
+
+{
+    "name": "Squat",
+    "description": "Squat",
+}
+
+###
+POST http://127.0.0.1:8000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "JJ@gmail.com",
+    "password": "password"
+}
